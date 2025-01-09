@@ -13,8 +13,8 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '21714374'))
-API_HASH = environ.get('API_HASH', '700092e37d7da9a7b781994b7503a488')
+API_ID = int(environ.get('API_ID', '28519661'))
+API_HASH = environ.get('API_HASH', 'd47c74c8a596fd3048955b322304109d')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -31,13 +31,13 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002097438993'))  # set shortner log channel
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002097438993')) # The movie you upload in it will be deleted from the bot.
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001525395841'))
-auth_channel = environ.get('AUTH_CHANNEL', '-1002086509550')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001974657184'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1002286564383') # If anyone sends a request message to your bot, you will get it in this channel.
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1001813495612')) # 
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002294764885'))  # set shortner log channel
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002294764885')) # The movie you upload in it will be deleted from the bot.
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002294764885'))
+auth_channel = environ.get('AUTH_CHANNEL', '-1002294764885')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002294764885'))
+request_channel = environ.get('REQUEST_CHANNEL', '-1002294764885') # If anyone sends a request message to your bot, you will get it in this channel.
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002294764885')) # 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/death_movies') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
