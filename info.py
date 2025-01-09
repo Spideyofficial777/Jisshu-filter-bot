@@ -18,7 +18,7 @@ API_HASH = environ.get('API_HASH', '700092e37d7da9a7b781994b7503a488')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6660736046','6243694287').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6660736046').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/DE4T8") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/DeathMovies_request')
